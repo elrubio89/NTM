@@ -37,3 +37,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+01_raw_reads/*fq.gz
+01_raw_reads/*zip
