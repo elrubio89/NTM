@@ -1,0 +1,19 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: corynebacteriales_odb10 (Creation date: 2020-03-06, number of genomes: 231, number of BUSCOs: 743)
+# Summarized benchmarking in BUSCO notation for file /home/elrubio/Documentos/WGS/WGS_NTM/02_assembly/192127496_assembly.fasta
+# BUSCO was run in mode: genome
+# Gene predictor used: prodigal
+
+	***** Results: *****
+
+	C:98.6%[S:98.5%,D:0.1%],F:0.4%,M:1.0%,n:743	   
+	733	Complete BUSCOs (C)			   
+	732	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	3	Fragmented BUSCOs (F)			   
+	7	Missing BUSCOs (M)			   
+	743	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	prodigal: 2.6.3
