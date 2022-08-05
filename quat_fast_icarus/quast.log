@@ -1,0 +1,133 @@
+/home/elrubio/miniconda3/envs/QUALITY/bin/quast 02_assembly/130621253_assembly.fasta 02_assembly/140630054_assembly.fasta 02_assembly/170699855_assembly.fasta 02_assembly/172148124_assembly.fasta 02_assembly/172211651_assembly.fasta 02_assembly/180653933_assembly.fasta 02_assembly/182003358_assembly.fasta 02_assembly/182028377_assembly.fasta 02_assembly/182291946_assembly.fasta 02_assembly/192069454_assembly.fasta 02_assembly/192087440_assembly.fasta 02_assembly/192127496_assembly.fasta 02_assembly/192155610_assembly.fasta 02_assembly/193507993_assembly.fasta 02_assembly/202217271_assembly.fasta -o quat_fast_icarus
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-5.15.0-41-generic-x86_64-with-debian-bookworm-sid (linux_64)
+  Python version: 2.7.18
+  CPUs number: 8
+
+Started: 2022-07-26 15:34:29
+
+Logging to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /home/elrubio/Documentos/WGS/WGS_NTM
+Main parameters: 
+  MODE: default, threads: 2, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1  02_assembly/130621253_assembly.fasta ==> 130621253_assembly
+  2  02_assembly/140630054_assembly.fasta ==> 140630054_assembly
+  3  02_assembly/170699855_assembly.fasta ==> 170699855_assembly
+  4  02_assembly/172148124_assembly.fasta ==> 172148124_assembly
+  5  02_assembly/172211651_assembly.fasta ==> 172211651_assembly
+  6  02_assembly/180653933_assembly.fasta ==> 180653933_assembly
+  7  02_assembly/182003358_assembly.fasta ==> 182003358_assembly
+  8  02_assembly/182028377_assembly.fasta ==> 182028377_assembly
+  9  02_assembly/182291946_assembly.fasta ==> 182291946_assembly
+  10 02_assembly/192069454_assembly.fasta ==> 192069454_assembly
+  11 02_assembly/192087440_assembly.fasta ==> 192087440_assembly
+  12 02_assembly/192127496_assembly.fasta ==> 192127496_assembly
+  13 02_assembly/192155610_assembly.fasta ==> 192155610_assembly
+  14 02_assembly/193507993_assembly.fasta ==> 193507993_assembly
+  15 02_assembly/202217271_assembly.fasta ==> 202217271_assembly
+
+2022-07-26 15:34:34
+Running Basic statistics processor...
+  Contig files: 
+    1  130621253_assembly
+    2  140630054_assembly
+    3  170699855_assembly
+    4  172148124_assembly
+    5  172211651_assembly
+    6  180653933_assembly
+    7  182003358_assembly
+    8  182028377_assembly
+    9  182291946_assembly
+    10 192069454_assembly
+    11 192087440_assembly
+    12 192127496_assembly
+    13 192155610_assembly
+    14 193507993_assembly
+    15 202217271_assembly
+  Calculating N50 and L50...
+    1  130621253_assembly, N50 = 295571, L50 = 6, Total length = 6142398, GC % = 67.62, # N's per 100 kbp =  0.00
+    2  140630054_assembly, N50 = 236640, L50 = 8, Total length = 6139072, GC % = 67.62, # N's per 100 kbp =  0.00
+    3  170699855_assembly, N50 = 117950, L50 = 15, Total length = 5475408, GC % = 68.86, # N's per 100 kbp =  0.00
+    4  172148124_assembly, N50 = 233187, L50 = 7, Total length = 5019817, GC % = 69.29, # N's per 100 kbp =  0.00
+    5  172211651_assembly, N50 = 189846, L50 = 16, Total length = 10702799, GC % = 68.50, # N's per 100 kbp =  0.00
+    6  180653933_assembly, N50 = 124765, L50 = 17, Total length = 7870959, GC % = 57.63, # N's per 100 kbp =  0.00
+    7  182003358_assembly, N50 = 335632, L50 = 7, Total length = 5830809, GC % = 67.86, # N's per 100 kbp =  0.00
+    8  182028377_assembly, N50 = 335631, L50 = 7, Total length = 5878152, GC % = 67.81, # N's per 100 kbp =  0.00
+    9  182291946_assembly, N50 = 106011, L50 = 15, Total length = 5096245, GC % = 69.17, # N's per 100 kbp =  0.00
+    10 192069454_assembly, N50 = 105997, L50 = 14, Total length = 5022158, GC % = 69.22, # N's per 100 kbp =  0.00
+    11 192087440_assembly, N50 = 467238, L50 = 5, Total length = 5430739, GC % = 68.02, # N's per 100 kbp =  0.00
+    12 192127496_assembly, N50 = 233187, L50 = 7, Total length = 5020218, GC % = 69.29, # N's per 100 kbp =  0.00
+    13 192155610_assembly, N50 = 266997, L50 = 8, Total length = 6226909, GC % = 67.59, # N's per 100 kbp =  0.00
+    14 193507993_assembly, N50 = 218732, L50 = 8, Total length = 5019114, GC % = 69.29, # N's per 100 kbp =  0.00
+    15 202217271_assembly, N50 = 244771, L50 = 9, Total length = 6229689, GC % = 67.59, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/GC_content_plot.pdf
+  Drawing 130621253_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/130621253_assembly_GC_content_plot.pdf
+  Drawing 140630054_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/140630054_assembly_GC_content_plot.pdf
+  Drawing 170699855_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/170699855_assembly_GC_content_plot.pdf
+  Drawing 172148124_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/172148124_assembly_GC_content_plot.pdf
+  Drawing 172211651_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/172211651_assembly_GC_content_plot.pdf
+  Drawing 180653933_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/180653933_assembly_GC_content_plot.pdf
+  Drawing 182003358_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/182003358_assembly_GC_content_plot.pdf
+  Drawing 182028377_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/182028377_assembly_GC_content_plot.pdf
+  Drawing 182291946_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/182291946_assembly_GC_content_plot.pdf
+  Drawing 192069454_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/192069454_assembly_GC_content_plot.pdf
+  Drawing 192087440_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/192087440_assembly_GC_content_plot.pdf
+  Drawing 192127496_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/192127496_assembly_GC_content_plot.pdf
+  Drawing 192155610_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/192155610_assembly_GC_content_plot.pdf
+  Drawing 193507993_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/193507993_assembly_GC_content_plot.pdf
+  Drawing 202217271_assembly GC content plot...
+    saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/basic_stats/202217271_assembly_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-07-26 15:34:40
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-07-26 15:34:43
+RESULTS:
+  Text versions of total report are saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/report.html
+  PDF version (tables and plots) is saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/report.pdf
+  Icarus (contig browser) is saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/icarus.html
+  Log is saved to /home/elrubio/Documentos/WGS/WGS_NTM/quat_fast_icarus/quast.log
+
+Finished: 2022-07-26 15:34:43
+Elapsed time: 0:00:13.301245
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
